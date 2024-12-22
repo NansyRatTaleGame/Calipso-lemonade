@@ -1,0 +1,26 @@
+header.Header {
+    background-color: rgb(113, 225, 245);
+}
+
+.Header .container {    
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.Header li {
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+    padding-inline: 10px;
+    border-radius: 10px;
+   
+   
+    
+}
+
+.Header li:hover{
+  background-color:aqua;
+}
+
